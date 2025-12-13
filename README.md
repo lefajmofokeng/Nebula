@@ -361,4 +361,3 @@ project/
 *Version: 1.0*  
 *Category: Executive Profile / Leadership Showcase*    
 *Last Updated: Dec 13, 2025*
- 
