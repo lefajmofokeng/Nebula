@@ -3,6 +3,8 @@
 ## Overview
 Nebula is an elegant CEO/Leadership profile component designed to showcase executive leadership with sophisticated visual design and professional presentation. This component combines modern web technologies with premium design aesthetics to create an immersive leadership profile section for corporate websites, portfolios, and executive bios.
 
+<img width="1920" height="1312" alt="nebula" src="https://github.com/user-attachments/assets/2779c44e-5013-4839-b82b-f371c442c65e" />
+
 ## Live Preview
 **View the component:** [Nebula](https://thisislefa.github.io/Nebula)
 
