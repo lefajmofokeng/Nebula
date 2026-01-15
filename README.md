@@ -6,7 +6,7 @@ Nebula is an elegant CEO/Leadership profile component designed to showcase execu
 <img width="1920" height="1312" alt="nebula" src="https://github.com/user-attachments/assets/2779c44e-5013-4839-b82b-f371c442c65e" />
 
 ## Live Preview
-**View the component:** [Nebula](https://thisislefa.github.io/Nebula)
+**View the component:** [Nebula](https://lefajmofokeng.github.io/Nebula)
 
 ## Key Features
 
