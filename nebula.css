@@ -4,8 +4,8 @@
 
   /* CEO Profile Section - Unique Class Names */
   .defcon-ceo-section {
-    background-color: #0a192f;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     padding: 100px 0;
     position: relative;
     overflow: hidden;
@@ -28,10 +28,9 @@
   }
   
   .defcon-ceo-preheading {
-    color: #0091ff;
-    font-size: 1rem;
+    color: #0082e6;
+    font-size: 1.2rem;
     font-weight: 600;
-    letter-spacing: 3px;
     text-transform: uppercase;
     display: inline-block;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -39,12 +38,12 @@
   
   .defcon-ceo-title {
     font-size: clamp(2.5rem, 5vw, 3.5rem);
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.2;
+    letter-spacing: -0.02em;
     margin-bottom: 30px;
-    background: linear-gradient(90deg, #ffffff 0%, rgba(255,255,255,0.7) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   color: #000000;
+  
   }
   
   .defcon-ceo-content {
@@ -60,7 +59,7 @@
     position: relative;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
   
@@ -85,15 +84,16 @@
   
   .defcon-ceo-name {
     font-size: clamp(2rem, 4vw, 2.5rem);
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 15px;
-    color: #ffffff;
+    letter-spacing: -0.02em;
+    color: #0a0a0a;
     line-height: 1.2;
   }
   
   .defcon-ceo-position {
     font-size: 1.2rem;
-    color: #0091ff;
+    color: #0082e6;
     margin-bottom: 30px;
     font-weight: 600;
   }
@@ -101,32 +101,10 @@
   .defcon-ceo-bio {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #e5e5e5;
+    color: #4a4e52;
     margin-bottom: 40px;
   }
-  
-  .defcon-ceo-quote {
-    position: relative;
-    padding: 30px;
-    border-left: 4px solid #0091ff;
-    background: rgba(6,39,62,0.3);
-    margin: 40px 0;
-    font-style: italic;
-    font-size: 1.2rem;
-  }
-  
-  .defcon-ceo-quote::before {
-    content: '"';
-    position: absolute;
-    top: 10px;
-    left: 15px;
-    font-size: 5rem;
-    color: rgba(0,145,255,0.1);
-    font-family: Georgia, serif;
-    line-height: 1;
-    z-index: 0;
-  }
-  
+
   .defcon-ceo-social {
     display: flex;
     gap: 15px;
@@ -137,7 +115,7 @@
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: rgba(255,255,255,0.1);
+    background: #0082e6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,15 +128,6 @@
   .defcon-ceo-social-link:hover {
     background: #0091ff;
     transform: translateY(-3px);
-  }
-  
-  .defcon-ceo-accent {
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(0,145,255,0.15) 0%, rgba(0,145,255,0) 70%);
-    z-index: 1;
   }
   
   .defcon-ceo-accent-1 {
